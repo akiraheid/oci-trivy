@@ -1,0 +1,20 @@
+{
+	"appName": "Trivy",
+	"containerName": "docker.io/akiraheid/trivy",
+	"devices": [],
+	"detach": false,
+	"ephemeral": true,
+	"env": [],
+	"mimeTypes": [],
+	"rm": true,
+	"singleton": false,
+	"userns": "keep-id",
+	"volumes": {
+		"arg": [],
+		"config": [],
+		"optional": [
+			"${HOME}/containers/trivy/cache:/root/.cache/"
+		],
+		"required": []
+	}
+}
